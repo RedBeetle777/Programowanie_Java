@@ -6,21 +6,21 @@ public class Zespolone {
 
 	public static void main(String[] args) {
 		
-		//System.out.println("Wybierz '1' jeżeli chcesz manualnie wprowadzić wartości ");
-		//System.out.println("Wybierz '2' jeżeli chcesz automatycznie wygenerować wartości ");
-		//System.out.println("Podaj numer: ");
+		System.out.println("Wybierz '1' jeżeli chcesz manualnie wprowadzić wartości ");
+		System.out.println("Wybierz '2' jeżeli chcesz automatycznie wygenerować wartości ");
+		System.out.println("Podaj numer: ");
 		//Scanner in = new Scanner(System.in);
-		//Scanner wy = new Scanner(System.in);
+		Scanner wy = new Scanner(System.in);
 		int re1 = 0;
 		int im1 = 0;
 		int re2 = 0;
 		int im2 = 0;
-		//int wyb = wy.nextInt();
+		int wyb = wy.nextInt();
 		
-		//switch (wyb)
-		//{
-		//	case 1:
-		//	{
+		switch (wyb)
+		{
+			case 1:
+			{
 				System.out.println("Wybrano manualne wpisywanie wartości");
 				System.out.println(" ");
 
@@ -55,9 +55,10 @@ public class Zespolone {
 					System.out.println("Wprowadzono liczbę zespoloną: "+re2+" + "+im2+"i");
 				}
 				System.out.println(" ");
+				break;
 				
-			//}
-			/*
+			}
+			
 			case 2:
 			{
 				
@@ -91,8 +92,9 @@ public class Zespolone {
 					System.out.println("Wygenerowano liczbę: "+re2+" + "+im2+"i");
 				}
 				System.out.println(" ");
+				break;
 			}
-		}*/
+		}
 		
 		System.out.println("*******************************************");
 		System.out.println("Wybierz działanie"); 
